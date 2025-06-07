@@ -9,6 +9,8 @@ class AppZonaFit(tk.Tk):
     def __init__(self):
         super().__init__()
         self.geometry('900x550')
+        self.resizable(False, False)
+        self.iconbitmap('icono.ico')
         self.configure(background='#424342')
         self.title('Zona Fit GUI')
         self.crearComponentes()
